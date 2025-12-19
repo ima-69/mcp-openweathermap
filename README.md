@@ -65,7 +65,7 @@ bun run src/main.ts
 
 **HTTP Stream Transport:**
 ```bash
-MCP_TRANSPORT=httpStream PORT=3000 bun run src/main.ts
+MCP_TRANSPORT=httpStream PORT=3000 MCP_ENDPOINT=/stream bun run src/main.ts
 ```
 
 ### Claude Desktop Configuration
